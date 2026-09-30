@@ -1,0 +1,14 @@
+[server]
+# Só aceita acesso do próprio computador (ninguém da rede consegue abrir o app)
+address = "localhost"
+port = 8501
+headless = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#2563eb"
